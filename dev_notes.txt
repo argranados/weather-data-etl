@@ -1,0 +1,4 @@
+11-Marzo
+Cambiar el puerto de postgress para no interferir con voting_db
+ports:
+      - "5433:5432"  # Izquierda: Tu PC, Derecha: El contenedor
